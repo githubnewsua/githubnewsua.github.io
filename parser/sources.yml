@@ -1,0 +1,4 @@
+sources:
+  ukrpravda:
+    channel: ukrpravda_news
+    type: telegram
