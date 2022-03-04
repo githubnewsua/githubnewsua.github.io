@@ -2,3 +2,6 @@ sources:
   ukrpravda:
     channel: ukrpravda_news
     type: telegram
+  200rf:
+    url: https://200rf.com/
+    type: website
