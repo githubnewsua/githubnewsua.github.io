@@ -4,4 +4,7 @@ sources:
     type: telegram
   200rf:
     url: https://200rf.com/
-    type: website
+    type: web
+  stopwarrightnow:
+    url: https://www.stopwarrightnow.com/
+    type: web

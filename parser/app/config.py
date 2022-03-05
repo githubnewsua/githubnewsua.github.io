@@ -4,6 +4,7 @@ from pathlib import Path
 
 config_path = Path(__file__).resolve().parent.parent / 'config.yml'
 sources_path = Path(__file__).resolve().parent.parent / 'sources.yml'
+output_path = Path(__file__).resolve().parent.parent.parent
 
 
 def read_config(path):

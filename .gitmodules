@@ -1,0 +1,6 @@
+[submodule "pages"]
+	path = pages
+	url = git@github.com:githubnewsua/githubnewsua.github.io.git
+[submodule "site/themes/hugo-theme-mini"]
+	path = site/themes/hugo-theme-mini
+	url = git@github.com:nodejh/hugo-theme-mini.git
