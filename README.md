@@ -5,6 +5,9 @@ Static website at https://githubnewsua.github.io/ is served from the `docs/` dir
 
 Static website sources are at `site/`.
 
+
+Main page https://githubnewsua.github.io/posts/main/
+
 Build
 ----
 
