@@ -2,3 +2,7 @@ typer
 pyyaml
 telethon
 pywebcopy
+feedparser
+requests
+beautifulsoup4
+jinja2

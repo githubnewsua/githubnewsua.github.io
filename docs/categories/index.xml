@@ -5,10 +5,6 @@
     <link>https://githubnewsua.github.io/categories/</link>
     <description>Recent content in Categories on Новости на GitHub</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ru-RU</language>
-    
-	<atom:link href="https://githubnewsua.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>ru-RU</language><atom:link href="https://githubnewsua.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
