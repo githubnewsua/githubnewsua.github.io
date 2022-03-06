@@ -4,7 +4,7 @@ title: 'Новости на GitHub'
 theme: 'hugo-theme-mini'
 defaultContentLanguage: ru
 
-publishDir: ../pages/
+publishDir: ../docs/
 
 # Hugo Configure Markup
 # More info: https://gohugo.io/getting-started/configuration-markup#

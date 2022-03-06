@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Новости на GitHub</title>
+    <link>https://githubnewsua.github.io/posts/</link>
+    <description>Recent content in Posts on Новости на GitHub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-RU</language>
+    <lastBuildDate>Sat, 05 Mar 2022 16:03:13 +0200</lastBuildDate><atom:link href="https://githubnewsua.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Потери российской армии</title>
+      <link>https://githubnewsua.github.io/posts/russian_losses/</link>
+      <pubDate>Sat, 05 Mar 2022 16:03:13 +0200</pubDate>
+      
+      <guid>https://githubnewsua.github.io/posts/russian_losses/</guid>
+      <description>Источник: Новое Время. https://nv.ua/ukraine/events/poteri-rossii-s-momenta-nachala-voyny-v-ukraine-poslednie-novosti-50220046.html
+РФ потеряла более 10 тыс. человек личного состава за 11 дней войны против Украины
+Российские военные терпят значительные потери во время агрессии против Украины. С начала вторжения оккупанты потеряли более 9000 человек личного состава.
+Какие потери несет Россия — в обновляемом материале НВ со ссылкой на данные заместителя министра обороны Анны Маляр, Генерального штаба ВСУ и Госспецсвязи.
+5 марта
+Личный состав — более 10 тыс. человек, Танки — 269, Боевые бронированные машины 945, Артиллерийские системы — 105, Реактивные системы залпового огня (РСЗО) — 50, Средства ПВО — 19, Самолеты — 39, Вертолеты — 40; Автомобильная техника — 409, Легкие скоростные катера — 2, Цистерны с горюче-смазочными материалами (ГСМ) — 60, БПЛА оперативно-тактического уровня — 3.</description>
+    </item>
+    
+    <item>
+      <title>Свобода - это рабство</title>
+      <link>https://githubnewsua.github.io/posts/my-first-post/</link>
+      <pubDate>Sat, 05 Mar 2022 16:03:13 +0200</pubDate>
+      
+      <guid>https://githubnewsua.github.io/posts/my-first-post/</guid>
+      <description>Машина пропаганды в РФ развернулась на полную мощность.
+Этот сайт призван показать реальную картину происходящей войны в Украине без цензуры.
+Потери российской армии
+Список Telegram-каналов освещающих события без цензуры и только с проверенными данными:
+ https://t.me/nexta_live https://t.me/novinach  </description>
+    </item>
+    
+  </channel>
+</rss>
