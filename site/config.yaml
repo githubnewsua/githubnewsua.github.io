@@ -58,3 +58,5 @@ params:
      path: /200rf.com/index.html
    - name: Зеркало stopwarrightnow.com
      path: /www.stopwarrightnow.com/index.html
+   - name: Ссылки на основные источники информации
+     path: /posts/main/index.html
