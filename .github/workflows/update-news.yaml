@@ -1,0 +1,46 @@
+name: Update news
+on:
+  schedule:
+#     Every 00 minutes
+    - cron: '0 * * * *'
+
+#on:
+#  push:
+#    branches:
+#      - master
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      matrix:
+        python-version: [3.9]
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.91.2'
+      - run: pip3 install -r requirements.txt
+      - name: Run updating news script
+        run: python3 /Users/andriyko/Projects/githubnewsua.github.io/parser/nv/main.py
+      - run: hugo -D
+        working-directory: ./site
+      - name: Commit files
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git commit -m "Refresh website" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}

@@ -33,11 +33,13 @@ def parse_nv_page(link):
     content = soup.find('div', {'class': 'article-content-body'}).find('div', {'class': 'content_wrapper'})
     paragraphs = content.find_all('p', recursive=False)
     paragraphs_text = map(lambda p: p.text, paragraphs)
-    title_img = content.find('div', {'class': 'article__content__head_img'}).find('img')
+
+    title_img_block = content.find('div', {'class': 'article__content__head_img'})
+    title_img = title_img_block.find('img') if title_img_block is not None else None
 
     return {
         'paragraphs': list(paragraphs_text),
-        'title_image': title_img.attrs['src'],
+        'title_image': title_img.attrs['src'] if title_img is not None else None,
     }
 
 def parse_entry(entry):
